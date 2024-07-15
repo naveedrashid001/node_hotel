@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const mongooseurl = "mongodb://localhost:27017/voting_app";
+const mongooseUrl = "mongodb://localhost:27017/node_hotel";
 
-mongoose.connect(mongooseurl, {});
+mongoose.connect(mongooseUrl, {});
 
 const db = mongoose.connection;
 
